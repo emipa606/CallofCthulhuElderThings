@@ -1,36 +1,29 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <BodyPartGroupDef>
     <defName>ElderThing_Head</defName>
     <label>head tentacles</label>
   </BodyPartGroupDef>
-
   <BodyPartGroupDef>
     <defName>ElderThing_Maw</defName>
     <label>maw</label>
   </BodyPartGroupDef>
-
   <BodyPartGroupDef>
     <defName>ElderThing_Wings</defName>
     <label>wings</label>
   </BodyPartGroupDef>
-
   <BodyPartGroupDef>
     <defName>ElderThing_Arms</defName>
     <label>tentacle arms</label>
   </BodyPartGroupDef>
-
   <BodyPartGroupDef>
     <defName>ElderThing_Legs</defName>
     <label>tentacle legs</label>
   </BodyPartGroupDef>
-
   <BodyPartGroupDef>
     <defName>ElderThing_Mind</defName>
     <label>strong mind</label>
   </BodyPartGroupDef>
-
   <BodyPartDef>
     <defName>ElderThing_EatingTube</defName>
     <label>eating tube</label>
@@ -42,7 +35,6 @@
       <li>TalkingSource</li>
     </tags>
   </BodyPartDef>
-
   <BodyPartDef>
     <defName>ElderThing_Maw</defName>
     <label>maw</label>
@@ -53,7 +45,6 @@
       <li>EatingSource</li>
     </tags>
   </BodyPartDef>
-
   <BodyPartDef>
     <defName>ElderThing_Eye</defName>
     <label>eye</label>
@@ -71,7 +62,6 @@
       </li>
     </hitChanceFactors>
   </BodyPartDef>
-
   <BodyPartDef>
     <defName>ElderThing_HeartLungFirst</defName>
     <label>respiration cell cluster (first)</label>
@@ -152,24 +142,21 @@
     <spawnThingOnRemoved>ET_Item_HeartLung</spawnThingOnRemoved>
     <canSuggestAmputation>false</canSuggestAmputation>
   </BodyPartDef>
-
-
   <BodyPartDef>
     <defName>ElderThing_PsionicLobe</defName>
     <label>psionic cortex</label>
     <hitPoints>20</hitPoints>
     <permanentInjuryChanceFactor>1</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
-	<tags>
+    <tags>
       <li>ConsciousnessSource</li>
       <li>TalkingSource</li>
-	  <li>HearingSource</li>
+      <li>HearingSource</li>
       <li>SightSource</li>
-	</tags>
+    </tags>
     <spawnThingOnRemoved>ET_Item_PsionicLobe</spawnThingOnRemoved>
     <canSuggestAmputation>false</canSuggestAmputation>
   </BodyPartDef>
-
   <BodyPartDef>
     <defName>ElderThing_FrontalLobe</defName>
     <label>frontal lobe</label>
@@ -177,11 +164,10 @@
     <permanentInjuryChanceFactor>1</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <canSuggestAmputation>false</canSuggestAmputation>
-	<tags>
+    <tags>
       <li>ConsciousnessSource</li>
-	</tags>
+    </tags>
   </BodyPartDef>
-
   <BodyPartDef>
     <defName>ElderThing_ParietalLobe</defName>
     <label>parietal lobe</label>
@@ -189,11 +175,10 @@
     <permanentInjuryChanceFactor>1</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <canSuggestAmputation>false</canSuggestAmputation>
-	<tags>
+    <tags>
       <li>ConsciousnessSource</li>
     </tags>
   </BodyPartDef>
-
   <BodyPartDef>
     <defName>ElderThing_OccipitalLobe</defName>
     <label>occipital lobe</label>
@@ -205,7 +190,6 @@
     </tags>
     <canSuggestAmputation>false</canSuggestAmputation>
   </BodyPartDef>
-
   <BodyPartDef>
     <defName>ElderThing_TemporalLobe</defName>
     <label>temporal lobe</label>
@@ -217,7 +201,6 @@
     </tags>
     <canSuggestAmputation>false</canSuggestAmputation>
   </BodyPartDef>
-
   <BodyPartDef>
     <defName>ElderThing_BrainStem</defName>
     <label>brain stem</label>
@@ -229,7 +212,6 @@
     </tags>
     <canSuggestAmputation>false</canSuggestAmputation>
   </BodyPartDef>
-
   <BodyPartDef>
     <defName>ElderThing_HeadTentaclesFirst</defName>
     <label>head tentacle (first)</label>
@@ -240,7 +222,7 @@
     <beautyRelated>true</beautyRelated>
     <tags>
       <li>SightSource</li>
-	  <li>HearingSource</li>
+      <li>HearingSource</li>
       <li>EatingSource</li>
       <li>TalkingSource</li>
       <li>ManipulationLimbDigit</li>
@@ -256,7 +238,7 @@
     <beautyRelated>true</beautyRelated>
     <tags>
       <li>SightSource</li>
-	  <li>HearingSource</li>
+      <li>HearingSource</li>
       <li>EatingSource</li>
       <li>TalkingSource</li>
       <li>ManipulationLimbDigit</li>
@@ -272,7 +254,7 @@
     <beautyRelated>true</beautyRelated>
     <tags>
       <li>SightSource</li>
-	  <li>HearingSource</li>
+      <li>HearingSource</li>
       <li>EatingSource</li>
       <li>TalkingSource</li>
       <li>ManipulationLimbDigit</li>
@@ -288,7 +270,7 @@
     <beautyRelated>true</beautyRelated>
     <tags>
       <li>SightSource</li>
-	  <li>HearingSource</li>
+      <li>HearingSource</li>
       <li>EatingSource</li>
       <li>TalkingSource</li>
       <li>ManipulationLimbDigit</li>
@@ -304,13 +286,12 @@
     <beautyRelated>true</beautyRelated>
     <tags>
       <li>SightSource</li>
-	  <li>HearingSource</li>
+      <li>HearingSource</li>
       <li>EatingSource</li>
       <li>TalkingSource</li>
       <li>ManipulationLimbDigit</li>
     </tags>
   </BodyPartDef>
-
   <BodyPartDef>
     <defName>ElderThing_TopRing</defName>
     <label>top ring</label>
@@ -325,7 +306,6 @@
     </tags>
     <canSuggestAmputation>false</canSuggestAmputation>
   </BodyPartDef>
-
   <BodyPartDef>
     <defName>ElderThing_WingFirst</defName>
     <label>wing (first)</label>
@@ -376,7 +356,6 @@
       <li>MovingLimbCore</li>
     </tags>
   </BodyPartDef>
-
   <BodyPartDef>
     <defName>ElderThing_TentacleArmFirst</defName>
     <label>tentacle arm (first)</label>
@@ -442,7 +421,6 @@
       <li>ManipulationLimbDigit</li>
     </tags>
   </BodyPartDef>
-
   <BodyPartDef>
     <defName>ElderThing_TentacleGrasperFirst</defName>
     <label>tentacle grasper (first)</label>
@@ -454,7 +432,6 @@
       <li>ManipulationLimbDigit</li>
     </tags>
   </BodyPartDef>
-
   <BodyPartDef>
     <defName>ElderThing_TentacleGrasperSecond</defName>
     <label>tentacle grasper (second)</label>
@@ -466,7 +443,6 @@
       <li>ManipulationLimbDigit</li>
     </tags>
   </BodyPartDef>
-
   <BodyPartDef>
     <defName>ElderThing_TentacleGrasperThird</defName>
     <label>tentacle grasper (third)</label>
@@ -478,7 +454,6 @@
       <li>ManipulationLimbDigit</li>
     </tags>
   </BodyPartDef>
-
   <BodyPartDef>
     <defName>ElderThing_TentacleGrasperFourth</defName>
     <label>tentacle grasper (fourth)</label>
@@ -490,7 +465,6 @@
       <li>ManipulationLimbDigit</li>
     </tags>
   </BodyPartDef>
-
   <BodyPartDef>
     <defName>ElderThing_TentacleGrasperFifth</defName>
     <label>tentacle grasper (fifth)</label>
@@ -502,7 +476,6 @@
       <li>ManipulationLimbDigit</li>
     </tags>
   </BodyPartDef>
-
   <BodyPartDef>
     <defName>ElderThing_BottomRing</defName>
     <label>bottom ring</label>
@@ -516,7 +489,6 @@
     </tags>
     <canSuggestAmputation>false</canSuggestAmputation>
   </BodyPartDef>
-
   <BodyPartDef>
     <defName>ElderThing_TentacleLegFirst</defName>
     <label>tentacle leg (first)</label>
@@ -526,7 +498,7 @@
     <skinCovered>true</skinCovered>
     <tags>
       <li>ManipulationLimbDigit</li>
-	  <li>MovingLimbCore</li>
+      <li>MovingLimbCore</li>
     </tags>
   </BodyPartDef>
   <BodyPartDef>
@@ -538,7 +510,7 @@
     <skinCovered>true</skinCovered>
     <tags>
       <li>ManipulationLimbDigit</li>
-	  <li>MovingLimbCore</li>
+      <li>MovingLimbCore</li>
     </tags>
   </BodyPartDef>
   <BodyPartDef>
@@ -550,7 +522,7 @@
     <skinCovered>true</skinCovered>
     <tags>
       <li>ManipulationLimbDigit</li>
-	  <li>MovingLimbCore</li>
+      <li>MovingLimbCore</li>
     </tags>
   </BodyPartDef>
   <BodyPartDef>
@@ -562,7 +534,7 @@
     <skinCovered>true</skinCovered>
     <tags>
       <li>ManipulationLimbDigit</li>
-	  <li>MovingLimbCore</li>
+      <li>MovingLimbCore</li>
     </tags>
   </BodyPartDef>
   <BodyPartDef>
@@ -574,11 +546,9 @@
     <skinCovered>true</skinCovered>
     <tags>
       <li>ManipulationLimbDigit</li>
-	  <li>MovingLimbCore</li>
+      <li>MovingLimbCore</li>
     </tags>
   </BodyPartDef>
-
-
   <BodyPartDef>
     <defName>ElderThing_Xylem</defName>
     <label>xylem tubes</label>
@@ -595,7 +565,6 @@
     <spawnThingOnRemoved>ET_Item_Xylem</spawnThingOnRemoved>
     <canSuggestAmputation>false</canSuggestAmputation>
   </BodyPartDef>
-
   <BodyPartDef>
     <defName>ElderThing_Phloem</defName>
     <label>phloem tubes</label>
@@ -612,5 +581,4 @@
     <spawnThingOnRemoved>ET_Item_Phloem</spawnThingOnRemoved>
     <canSuggestAmputation>false</canSuggestAmputation>
   </BodyPartDef>
-
 </Defs>

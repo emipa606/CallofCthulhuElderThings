@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <LifeStageDef>
     <defName>ElderThingPod</defName>
     <label>pod</label>
@@ -13,7 +12,6 @@
       <MoveSpeed>0.0</MoveSpeed>
     </statFactors>
   </LifeStageDef>
-
   <LifeStageDef>
     <defName>ElderThingSprout</defName>
     <label>sprout</label>
@@ -26,7 +24,6 @@
       <MoveSpeed>0.3</MoveSpeed>
     </statFactors>
   </LifeStageDef>
-
   <LifeStageDef>
     <defName>ElderThingJuvenile</defName>
     <label>juvenile</label>
@@ -38,7 +35,6 @@
       <MoveSpeed>0.65</MoveSpeed>
     </statFactors>
   </LifeStageDef>
-
   <LifeStageDef>
     <defName>ElderThingReproductive</defName>
     <label>reproductive</label>
@@ -49,12 +45,10 @@
       <MoveSpeed>0.95</MoveSpeed>
     </statFactors>
   </LifeStageDef>
-  
   <LifeStageDef>
     <defName>ElderThingFullyFormed</defName>
     <label>fully formed</label>
     <visible>false</visible>
     <reproductive>true</reproductive>
   </LifeStageDef>
-  
 </Defs>

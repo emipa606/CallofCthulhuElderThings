@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <!-- natural -->
-
   <ThingDef ParentName="ElderThingBodyPartNaturalBase">
     <defName>ET_Item_PsionicLobe</defName>
     <label>psionic cortex (elder thing)</label>
@@ -16,7 +14,6 @@
       <Mass>1</Mass>
     </statBases>
   </ThingDef>
-  
   <ThingDef ParentName="ElderThingBodyPartNaturalBase">
     <defName>ET_Item_HeartLung</defName>
     <label>respiration cell cluster</label>
@@ -30,7 +27,6 @@
       <Mass>1</Mass>
     </statBases>
   </ThingDef>
-  
   <ThingDef ParentName="ElderThingBodyPartNaturalBase">
     <defName>ET_Item_Xylem</defName>
     <label>xylem tubes</label>
@@ -43,8 +39,7 @@
       <MarketValue>700</MarketValue>
       <Mass>1</Mass>
     </statBases>
-  </ThingDef>  
-  
+  </ThingDef>
   <ThingDef ParentName="ElderThingBodyPartNaturalBase">
     <defName>ET_Item_Phloem</defName>
     <label>phloem tubes</label>
@@ -57,10 +52,8 @@
       <MarketValue>700</MarketValue>
       <Mass>1</Mass>
     </statBases>
-  </ThingDef>  
-  
+  </ThingDef>
   <!-- artificial -->
-  
   <ThingDef ParentName="ElderThingBodyPartArtificialBase">
     <defName>ET_Item_BionicWing</defName>
     <label>bionic wing (elder thing)</label>
@@ -77,11 +70,8 @@
       <li>Advanced</li>
     </techHediffsTags>
   </ThingDef>
-
-
-  
   <!-- Bases -->
-   <ThingDef Name="ElderThingBodyPartBase" Abstract="True">
+  <ThingDef Name="ElderThingBodyPartBase" Abstract="True">
     <thingClass>ThingWithComps</thingClass>
     <category>Item</category>
     <useHitPoints>true</useHitPoints>
@@ -89,8 +79,8 @@
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
       <Flammability>1.0</Flammability>
-			<Beauty>-6</Beauty>
-		</statBases>
+      <Beauty>-6</Beauty>
+    </statBases>
     <altitudeLayer>Item</altitudeLayer>
     <tickerType>Never</tickerType>
     <alwaysHaulable>true</alwaysHaulable>
@@ -98,29 +88,24 @@
       <li>BodyPartOrImplant</li>
     </tradeTags>
     <comps>
-      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Forbiddable" />
     </comps>
     <pathCost>10</pathCost>
   </ThingDef>
-
   <ThingDef ParentName="BodyPartBase" Name="ElderThingBodyPartNaturalBase" Abstract="True">
     <thingCategories>
       <li>BodyPartsNatural</li>
     </thingCategories>
-		<statBases>
-			<DeteriorationRate>4.0</DeteriorationRate>
-		</statBases>
+    <statBases>
+      <DeteriorationRate>4.0</DeteriorationRate>
+    </statBases>
   </ThingDef>
-
   <ThingDef ParentName="BodyPartBase" Name="ElderThingBodyPartArtificialBase" Abstract="True">
     <thingCategories>
       <li>BodyPartsArtificial</li>
     </thingCategories>
-		<statBases>
-			<DeteriorationRate>2.0</DeteriorationRate>
-		</statBases>
+    <statBases>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
   </ThingDef>
- 
-  
-  
 </Defs>

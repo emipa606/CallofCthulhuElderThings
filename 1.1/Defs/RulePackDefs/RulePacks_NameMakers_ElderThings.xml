@@ -1,27 +1,24 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <RulePackDef>
     <defName>NamerFactionBaseElderThings</defName>
     <rulePack>
       <rulesStrings>
-        <li>name->[basename]</li>
+        <li>name-&gt;[basename]</li>
       </rulesStrings>
-	  <rulesRaw>
-		<li Class="Rule_File">
-		<keyword>basename</keyword>
-		<path>NameBanks/NamesBases_ElderThings</path>
-		</li>
-	  </rulesRaw>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>basename</keyword>
+          <path>NameBanks/NamesBases_ElderThings</path>
+        </li>
+      </rulesRaw>
     </rulePack>
   </RulePackDef>
-
-
   <RulePackDef>
     <defName>NamerElderThings</defName>
     <rulePack>
       <rulesStrings>
-        <li>name->[pack]</li>
+        <li>name-&gt;[pack]</li>
       </rulesStrings>
       <rulesRaw>
         <li Class="Rule_File">
@@ -31,5 +28,4 @@
       </rulesRaw>
     </rulePack>
   </RulePackDef>
-
 </Defs>

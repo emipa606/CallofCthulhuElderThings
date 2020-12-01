@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <ElderThing_EatingTube.label>пищевая трубка</ElderThing_EatingTube.label>
   <ElderThing_Maw.label>пасть</ElderThing_Maw.label>
   <ElderThing_Eye.label>глаз</ElderThing_Eye.label>
@@ -44,6 +43,4 @@
   <ElderThing_TentacleLegFifth.label>пятая ложноножка</ElderThing_TentacleLegFifth.label>
   <ElderThing_Xylem.label>ксилемные трубки</ElderThing_Xylem.label>
   <ElderThing_Phloem.label>флоэмные трубки</ElderThing_Phloem.label>
-
-
 </LanguageData>

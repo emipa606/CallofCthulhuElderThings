@@ -1,38 +1,34 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <!-- ============================ Childhood ========================== -->
-  
   <!-- All Elder Thing Backgrounds have disabled
   Manual dumb labor -->
-  
   <AlienRace.BackstoryDef Name="ET_BG_Base" Abstract="True">
-      <bodyTypeGlobal>Hulk</bodyTypeGlobal>
-      <workDisables>
+    <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+    <workDisables>
       <li>ManualDumb</li>
     </workDisables>
     <spawnCategories>
       <li>ElderThing_Backstory</li>
     </spawnCategories>
-	<disallowedTraits>
-	  <li>
-	    <defName>Nudist</defName>
-	  </li>
-	  <li>
-		<defName>Cannibal</defName>
-	  </li>
-	  <li>
-	    <defName>Gay</defName>
-	  </li>
-	  <li>
-	    <defName>DislikesMen</defName>
-	  </li>
-	  <li>
-	    <defName>DislikesWomen</defName>
-	  </li>
-	</disallowedTraits>
+    <disallowedTraits>
+      <li>
+        <defName>Nudist</defName>
+      </li>
+      <li>
+        <defName>Cannibal</defName>
+      </li>
+      <li>
+        <defName>Gay</defName>
+      </li>
+      <li>
+        <defName>DislikesMen</defName>
+      </li>
+      <li>
+        <defName>DislikesWomen</defName>
+      </li>
+    </disallowedTraits>
   </AlienRace.BackstoryDef>
-  
   <AlienRace.BackstoryDef ParentName="ET_BG_Base">
     <defName>ET_BG_C_01</defName>
     <title>Parasite ridden</title>
@@ -49,21 +45,20 @@
       </li>
     </skillGains>
   </AlienRace.BackstoryDef>
-  
   <AlienRace.BackstoryDef ParentName="ET_BG_Base">
     <defName>ET_BG_C_02</defName>
     <title>Twin brain</title>
     <baseDescription>Born with a dual brain totalling 10 lobes, [PAWN_nameDef] spent much of its youth conversing with itself. Other Elder Things considered it a mad prodigy.</baseDescription>
     <slot>Childhood</slot>
-      <workDisables>
+    <workDisables>
       <li>ManualDumb</li>
-	  <li>Social</li>
-    </workDisables>	
-	<forcedTraits>
-	  <li>
-	    <defName>TooSmart</defName>
-	  </li>
-	</forcedTraits>
+      <li>Social</li>
+    </workDisables>
+    <forcedTraits>
+      <li>
+        <defName>TooSmart</defName>
+      </li>
+    </forcedTraits>
     <skillGains>
       <li>
         <defName>Intellectual</defName>
@@ -74,7 +69,6 @@
       <li>ElderThing_Backstory</li>
     </spawnCategories>
   </AlienRace.BackstoryDef>
-  
   <AlienRace.BackstoryDef ParentName="ET_BG_Base">
     <defName>ET_BG_C_03</defName>
     <title>Shoggoth rebellion survivor</title>
@@ -82,8 +76,8 @@
     <slot>Childhood</slot>
     <workDisables>
       <li>ManualDumb</li>
-	  <li>Intellectual</li>
-    </workDisables>	
+      <li>Intellectual</li>
+    </workDisables>
     <skillGains>
       <li>
         <defName>Shooting</defName>
@@ -106,7 +100,6 @@
       <li>ElderThing_Backstory</li>
     </spawnCategories>
   </AlienRace.BackstoryDef>
-  
   <AlienRace.BackstoryDef ParentName="ET_BG_Base">
     <defName>ET_BG_C_04</defName>
     <title>Alpha spawn</title>
@@ -126,7 +119,6 @@
       <li>ElderThing_Backstory</li>
     </spawnCategories>
   </AlienRace.BackstoryDef>
-  
   <AlienRace.BackstoryDef ParentName="ET_BG_Base">
     <defName>ET_BG_C_05</defName>
     <title>Helpful spawn</title>
@@ -150,7 +142,6 @@
       <li>ElderThing_Backstory</li>
     </spawnCategories>
   </AlienRace.BackstoryDef>
-  
   <AlienRace.BackstoryDef ParentName="ET_BG_Base">
     <defName>ET_BG_C_06</defName>
     <title>Geometric-abstractor</title>
@@ -170,18 +161,16 @@
       <li>ElderThing_Backstory</li>
     </spawnCategories>
   </AlienRace.BackstoryDef>
-  
-  
   <AlienRace.BackstoryDef ParentName="ET_BG_Base">
     <defName>ET_BG_C_07</defName>
     <title>Vile creature</title>
     <baseDescription>Pulling the legs off starfish was one of the least horrible things [PAWN_nameDef] did during their formative years. [PAWN_nameDef] joined a commune of similar creatures and thrived on having openly loose morals.</baseDescription>
     <slot>Childhood</slot>
-	<forcedTraits>
-	  <li>
-	    <defName>Psychopath</defName>
-	  </li>
-	</forcedTraits>	
+    <forcedTraits>
+      <li>
+        <defName>Psychopath</defName>
+      </li>
+    </forcedTraits>
     <skillGains>
       <li>
         <defName>Melee</defName>
@@ -195,10 +184,8 @@
     <spawnCategories>
       <li>ElderThing_Backstory</li>
     </spawnCategories>
-  </AlienRace.BackstoryDef>  
-  
-    <!-- ============================ Adulthood ========================== -->
-  
+  </AlienRace.BackstoryDef>
+  <!-- ============================ Adulthood ========================== -->
   <AlienRace.BackstoryDef ParentName="ET_BG_Base">
     <defName>ET_BG_A_01</defName>
     <title>Hypno-novelist</title>
@@ -219,7 +206,6 @@
       </li>
     </skillGains>
   </AlienRace.BackstoryDef>
-  
   <AlienRace.BackstoryDef ParentName="ET_BG_Base">
     <defName>ET_BG_A_02</defName>
     <title>Shoggoth trainer</title>
@@ -236,7 +222,6 @@
       </li>
     </skillGains>
   </AlienRace.BackstoryDef>
-  
   <AlienRace.BackstoryDef ParentName="ET_BG_Base">
     <defName>ET_BG_A_03</defName>
     <title>Retrobiosculptor</title>
@@ -265,7 +250,6 @@
       </li>
     </skillGains>
   </AlienRace.BackstoryDef>
-  
   <AlienRace.BackstoryDef ParentName="ET_BG_Base">
     <defName>ET_BG_A_04</defName>
     <title>Laser gun operator</title>
@@ -282,7 +266,6 @@
       </li>
     </skillGains>
   </AlienRace.BackstoryDef>
-
   <AlienRace.BackstoryDef ParentName="ET_BG_Base">
     <defName>ET_BG_A_05</defName>
     <title>Xenomarine-botanist</title>
@@ -292,14 +275,13 @@
       <li>
         <defName>Intellectual</defName>
         <amount>3</amount>
-      </li>      
-	  <li>
+      </li>
+      <li>
         <defName>Plants</defName>
         <amount>3</amount>
       </li>
     </skillGains>
   </AlienRace.BackstoryDef>
-  
   <AlienRace.BackstoryDef ParentName="ET_BG_Base">
     <defName>ET_BG_A_06</defName>
     <title>Bio-threat manager</title>
@@ -324,8 +306,6 @@
       </li>
     </skillGains>
   </AlienRace.BackstoryDef>
-
-    
   <AlienRace.BackstoryDef ParentName="ET_BG_Base">
     <defName>ET_BG_A_07</defName>
     <title>Meatflock tender</title>
@@ -346,8 +326,6 @@
       </li>
     </skillGains>
   </AlienRace.BackstoryDef>
-  
-    
   <AlienRace.BackstoryDef ParentName="ET_BG_Base">
     <defName>ET_BG_A_08</defName>
     <title>Retrospective analyst</title>
@@ -357,11 +335,9 @@
       <li>
         <defName>Intellectual</defName>
         <amount>5</amount>
-      </li>      
+      </li>
     </skillGains>
-  </AlienRace.BackstoryDef>  
-  
-    
+  </AlienRace.BackstoryDef>
   <AlienRace.BackstoryDef ParentName="ET_BG_Base">
     <defName>ET_BG_A_09</defName>
     <title>Compliance officer</title>
@@ -375,11 +351,9 @@
       <li>
         <defName>Melee</defName>
         <amount>2</amount>
-      </li>      
+      </li>
     </skillGains>
-  </AlienRace.BackstoryDef>    
-  
-    
+  </AlienRace.BackstoryDef>
   <AlienRace.BackstoryDef ParentName="ET_BG_Base">
     <defName>ET_BG_A_10</defName>
     <title>Muralist historian</title>
@@ -393,11 +367,9 @@
       <li>
         <defName>Intellectual</defName>
         <amount>4</amount>
-      </li>      
+      </li>
     </skillGains>
-  </AlienRace.BackstoryDef>    
- 
-    
+  </AlienRace.BackstoryDef>
   <AlienRace.BackstoryDef ParentName="ET_BG_Base">
     <defName>ET_BG_A_11</defName>
     <title>Evolution historian</title>
@@ -411,11 +383,9 @@
       <li>
         <defName>Intellectual</defName>
         <amount>4</amount>
-      </li>      
+      </li>
     </skillGains>
-  </AlienRace.BackstoryDef>  
- 
-    
+  </AlienRace.BackstoryDef>
   <AlienRace.BackstoryDef ParentName="ET_BG_Base">
     <defName>ET_BG_A_12</defName>
     <title>Big game taxidermist</title>
@@ -429,14 +399,13 @@
       <li>
         <defName>Crafting</defName>
         <amount>3</amount>
-      </li>      
+      </li>
       <li>
         <defName>Melee</defName>
         <amount>2</amount>
-      </li>      
+      </li>
     </skillGains>
-  </AlienRace.BackstoryDef>   
- 
+  </AlienRace.BackstoryDef>
   <AlienRace.BackstoryDef ParentName="ET_BG_Base">
     <defName>ET_BG_A_12</defName>
     <title>Moho geo-architect</title>
@@ -448,9 +417,7 @@
         <amount>5</amount>
       </li>
     </skillGains>
-  </AlienRace.BackstoryDef>   
- 
-  
+  </AlienRace.BackstoryDef>
   <AlienRace.BackstoryDef ParentName="ET_BG_Base">
     <defName>ET_BG_A_13</defName>
     <title>Ennui consoler</title>
@@ -462,9 +429,7 @@
         <amount>5</amount>
       </li>
     </skillGains>
-  </AlienRace.BackstoryDef>   
- 
-  
+  </AlienRace.BackstoryDef>
   <AlienRace.BackstoryDef ParentName="ET_BG_Base">
     <defName>ET_BG_A_14</defName>
     <title>Torturous doctor</title>
@@ -478,8 +443,7 @@
       <li>
         <defName>Melee</defName>
         <amount>3</amount>
-      </li>	  
+      </li>
     </skillGains>
-  </AlienRace.BackstoryDef> 
-  
+  </AlienRace.BackstoryDef>
 </Defs>

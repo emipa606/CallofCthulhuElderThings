@@ -1,18 +1,16 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-	<ResearchProjectDef>
-		<defName>ElderThingLaserGun</defName>
-		<label>laser gun (elder things)</label>
-		<description>Create the necessary technology to allow the production of the elder thing laser gun. This is race restricted research for Elder Things.</description>
-		<baseCost>1500</baseCost>
-		<techLevel>Industrial</techLevel>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<researchViewX>7</researchViewX>
-		<researchViewY>4</researchViewY>
-	</ResearchProjectDef>
-
-	<!--
+  <ResearchProjectDef>
+    <defName>ElderThingLaserGun</defName>
+    <label>laser gun (elder things)</label>
+    <description>Create the necessary technology to allow the production of the elder thing laser gun. This is race restricted research for Elder Things.</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>7</researchViewX>
+    <researchViewY>4</researchViewY>
+  </ResearchProjectDef>
+  <!--
 	<ResearchProjectDef>
 		<defName>ElderThingBiogenesis</defName>
 		<label>biogenesis (elder things)</label>
@@ -30,5 +28,4 @@
 		<researchViewY>4</researchViewY>
 	</ResearchProjectDef>
 -->
-
 </Defs>

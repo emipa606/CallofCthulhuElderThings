@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Relationships -->
   <ElderThingsParent>отец</ElderThingsParent>
   <ElderThingsGrandParent>дед</ElderThingsGrandParent>
@@ -18,7 +17,5 @@
   <ElderThingsLover>партнер</ElderThingsLover>
   <ElderThingsExLover>бывший партнер</ElderThingsExLover>
   <ElderThingsBrood>семья</ElderThingsBrood>
-
   <ElderThingStartDialog>Шогготы пробили защитные укрепления, когда вы уже почти были готовы взмыть в небо. Они успели обезглавить нескольких из тех, кем вы дорожили и кого считали своей семьей.  \n\nПрошло много десятилетий и теперь вы, и несколько других из вашего родного мира, приземлились на эту неизведанную планету на краю вселенной. \n\nОбломки корабля снабжения еще не успели упасть на землю, а вы уже начинаете строить планы и думать о выживании.</ElderThingStartDialog>
-
 </LanguageData>

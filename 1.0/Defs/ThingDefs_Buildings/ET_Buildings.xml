@@ -1,10 +1,6 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-
-
   <!-- ========================= PRODUCTION ==================== -->
-
   <!--
     <ThingDef ParentName="ArtableFurnitureBase">
     <defName>ET_Console</defName>
@@ -65,7 +61,6 @@
     </comps>
   </ThingDef>
 -->
-
   <!--
     <ThingDef ParentName="ArtableFurnitureBase">
     <defName>ET_BiogenesisVat</defName>
@@ -129,10 +124,8 @@
     </researchPrerequisites>
   </ThingDef>
 -->
-
   <!-- ========================= FURNITURE ==================== -->
-
-    <ThingDef ParentName="ArtableFurnitureBase">
+  <ThingDef ParentName="ArtableFurnitureBase">
     <defName>ET_ChairPentagonal</defName>
     <thingClass>Building</thingClass>
     <label>elder thing chair (pentagonal)</label>
@@ -157,10 +150,10 @@
     </statBases>
     <description>This is not a chair. Rather, it is a raised five-sided surface that allows creatures with multiple appendages to rest their weary limbs. Without any high backs, this surface allows better viewing for creatures with more than just two eyes.</description>
     <socialPropernessMatters>true</socialPropernessMatters>
-	<size>(1,1)</size>
+    <size>(1,1)</size>
     <stuffCategories>
       <li>Metallic</li>
-	  <li>Stony</li>
+      <li>Stony</li>
       <li>Woody</li>
     </stuffCategories>
     <costStuffCount>60</costStuffCount>
@@ -171,8 +164,7 @@
       <isSittable>true</isSittable>
     </building>
   </ThingDef>
-
-    <ThingDef ParentName="ArtableFurnitureBase">
+  <ThingDef ParentName="ArtableFurnitureBase">
     <defName>ET_Chair</defName>
     <thingClass>ElderThingFaction.Building_ElderThingChair</thingClass>
     <label>elder thing chair</label>
@@ -197,7 +189,7 @@
     </statBases>
     <description>A comfortable and attractive chair for sitting at a table.</description>
     <socialPropernessMatters>true</socialPropernessMatters>
-	<size>(1,1)</size>
+    <size>(1,1)</size>
     <stuffCategories>
       <li>Metallic</li>
       <li>Woody</li>
@@ -210,8 +202,6 @@
       <isSittable>true</isSittable>
     </building>
   </ThingDef>
-
-
   <ThingDef ParentName="ArtableFurnitureBase">
     <defName>ET_Bed</defName>
     <label>elder thing bed</label>
@@ -257,19 +247,19 @@
         </linkableFacilities>
       </li>
       <li Class="CompProperties_RoomIdentifier">
-		<roomStat>Impressiveness</roomStat>
-	  </li>
+        <roomStat>Impressiveness</roomStat>
+      </li>
       <li Class="ElderThingFaction.CompProperties_SecondLayer">
-	    <graphicData>
-			<texPath>Furniture/Bed/ET_BedDoor</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(5,5)</drawSize>
-	    </graphicData>
-	    <altitudeLayer>MoteOverhead</altitudeLayer>
+        <graphicData>
+          <texPath>Furniture/Bed/ET_BedDoor</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>(5,5)</drawSize>
+        </graphicData>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
       </li>
     </comps>
-	<rotatable>false</rotatable>
+    <rotatable>false</rotatable>
     <fillPercent>0.4</fillPercent>
     <pathCost>60</pathCost>
     <staticSunShadowHeight>0.17</staticSunShadowHeight>
@@ -277,11 +267,10 @@
     <designationHotKey>Misc2</designationHotKey>
     <passability>PassThroughOnly</passability>
     <drawGUIOverlay>True</drawGUIOverlay>
-		<placeWorkers>
-			<li>PlaceWorker_ShowFacilitiesConnections</li>
-		</placeWorkers>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
   </ThingDef>
-
   <ThingDef ParentName="TableBase">
     <defName>ET_Table</defName>
     <label>table (pentagonal)</label>
@@ -301,12 +290,11 @@
       <Flammability>1.0</Flammability>
       <Beauty>8</Beauty>
     </statBases>
-	<staticSunShadowHeight>0</staticSunShadowHeight>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
     <fillPercent>0.75</fillPercent>
     <uiIconPath>Furniture/UI/ET_Table</uiIconPath>
     <size>(3,2)</size>
     <costStuffCount>50</costStuffCount>
     <rotatable>true</rotatable>
   </ThingDef>
-
 </Defs>

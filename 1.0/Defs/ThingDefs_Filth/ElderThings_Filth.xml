@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ThingDef ParentName="BaseFilth">
     <defName>Filth_BloodElderThing</defName>
     <label>elder thing blood</label>
@@ -17,7 +16,5 @@
       <cleaningWorkToReduceThickness>90</cleaningWorkToReduceThickness>
       <canFilthAttach>true</canFilthAttach>
     </filth>
-  </ThingDef>   
-
-  
+  </ThingDef>
 </Defs>

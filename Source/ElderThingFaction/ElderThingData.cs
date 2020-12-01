@@ -1,0 +1,27 @@
+﻿using Verse;
+
+namespace ElderThingFaction
+{
+    public class ElderThingData : AbilityUser.AbilityData
+    {
+        private Pawn pawn;
+        public bool elderThingPowersInitialized = false;
+        
+        public ElderThingData()
+        {
+
+        }
+        
+
+        public ElderThingData(CompElderThing newUser)
+        {
+            pawn = newUser.AbilityUser;
+        }
+                
+        public void ExposeData()
+        {
+            Scribe_References.Look<Pawn>(ref pawn, "elderThingDataPawn");
+            Scribe_Values.Look<bool>(ref elderThingPowersInitialized, "elderThingPowersInitialized", false);
+        }
+    }
+}
