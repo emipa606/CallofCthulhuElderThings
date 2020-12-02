@@ -18,36 +18,34 @@ namespace ElderThingFaction
 
         static HarmonyElderThings()
         {
-            var h = new Harmony("rimworld.jecrell.cthulhu.elderthings");
+            var harmony = new Harmony("rimworld.jecrell.cthulhu.elderthings");
 
 
             DebugMessage("HAR :: -===- ENTER Harmony Test -===- ");
 
 
             //Elder Things Weapons need to fire at five targets when equipped
-            Patch(h, typeof(Projectile).GetMethods(bindingAttr: AccessTools.all).First(
+            Patch(harmony, typeof(Projectile).GetMethods(bindingAttr: AccessTools.all).First(
                         mi => mi.Name == "Launch" && mi.GetParameters().ElementAt(1).ParameterType == typeof(Vector3)),
                     new HarmonyMethod(typeof(HarmonyElderThings), nameof(Launch_Prefix)), null);
 
             //Elder Things add to the difficulty of a colony
-            Patch(h, AccessTools.Method(typeof(StorytellerUtility), "DefaultParmsNow"), null,
+            Patch(harmony, AccessTools.Method(typeof(StorytellerUtility), "DefaultParmsNow"), null,
                     new HarmonyMethod(typeof(HarmonyElderThings), nameof(DefaultParmsNow_PostFix)));
 
             //Elder things have colonies that spawn in the colder parts of the world
-            Patch(h, AccessTools.Method(typeof(TileFinder), "RandomSettlementTileFor"),
+            Patch(harmony, AccessTools.Method(typeof(TileFinder), "RandomSettlementTileFor"),
                     new HarmonyMethod(typeof(HarmonyElderThings), nameof(RandomSettlementTileFor_PreFix)), null);
 
             //Elder Things do not wear apparel
-            Patch(h, AccessTools.Method(typeof(PawnApparelGenerator),
+            Patch(harmony, AccessTools.Method(typeof(PawnApparelGenerator),
                         nameof(PawnApparelGenerator.GenerateStartingApparelFor)),
                     new HarmonyMethod(typeof(HarmonyElderThings), nameof(GenerateStartingApparelFor_PreFix)), null);
 
             //Elder Things have no hair.
-            Patch(h, AccessTools.Method(typeof(PawnHairChooser),
+            Patch(harmony, AccessTools.Method(typeof(PawnHairChooser),
                         nameof(PawnHairChooser.RandomHairDefFor)),
                     new HarmonyMethod(typeof(HarmonyElderThings), nameof(RandomHairDefFor_PreFix)), null);
-
-
 
             DebugMessage("HAR :: -===- EXIT Harmony Test -===- ");
         }
@@ -177,6 +175,7 @@ namespace ElderThingFaction
             DebugMessage("876 :: -- Exit RandomHairDefFor_Prefix ((True)) --");
             return true;
         }
+
 
         //PawnApparelGenerator.GenerateStartingApparelFor
         public static bool GenerateStartingApparelFor_PreFix(Pawn pawn, PawnGenerationRequest request)

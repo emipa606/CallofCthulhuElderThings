@@ -260,6 +260,10 @@
         </graphicData>
         <altitudeLayer>MoteOverhead</altitudeLayer>
       </li>
+      <li Class="CompProperties_AssignableToPawn">
+        <drawAssignmentOverlay>false</drawAssignmentOverlay>
+        <compClass>ElderThingFaction.CompAssignableToElder</compClass>
+      </li>
     </comps>
     <rotatable>false</rotatable>
     <fillPercent>0.4</fillPercent>

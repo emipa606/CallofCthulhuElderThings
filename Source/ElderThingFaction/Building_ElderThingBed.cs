@@ -15,7 +15,7 @@ namespace ElderThingFaction
 
         public bool IsPawnSleeping()
         {
-            if (CurOccupants?.RandomElement() != null)
+            if (CurOccupants != null && CurOccupants.EnumerableCount() > 0)
             {
                 return true;
             }

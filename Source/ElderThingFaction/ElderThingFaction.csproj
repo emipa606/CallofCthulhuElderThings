@@ -38,6 +38,7 @@
     <Compile Include="Building_BiogenesisVat.cs" />
     <Compile Include="Building_ElderThingBed.cs" />
     <Compile Include="Building_ElderThingChair.cs" />
+    <Compile Include="CompAssignableToElder.cs" />
     <Compile Include="CompElderThing.cs" />
     <Compile Include="CompProperties_SecondLayer.cs" />
     <Compile Include="CompSecondLayer.cs" />
