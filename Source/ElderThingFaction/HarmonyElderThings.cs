@@ -260,17 +260,17 @@ namespace ElderThingFaction
         //RimWorld.StorytellerUtility
         public static void DefaultParmsNow_PostFix(IncidentCategoryDef incCat, IIncidentTarget target, ref IncidentParms __result)
         {
-            var map = (Map)__result.target;
-            if (map == null)
-            {
-                return;
-            }
-            if (__result.points <= 0)
-            {
-                return;
-            }
             try
             {
+                var map = (Map)__result.target;
+                if (map == null)
+                {
+                    return;
+                }
+                if (__result.points <= 0)
+                {
+                    return;
+                }
                 var numElderThings = map?.mapPawns?.FreeColonistsSpawned?.ToList()?.FindAll(p => p.def.defName == "Alien_ElderThing_Race_Standard")?.Count ?? 0;
                 __result.points += numElderThings * 50;
             }
